@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Acme', sans-serif;
+}
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input:focus{
+    outline: none;
+}
+#main {
+    min-height: 100vh;
+    background: #1f1f1f;
+    color: aliceblue;
+    text-align: center;
+}
+.row.priceX {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#add{
+    border-radius: 20px;
+    padding: 10px;
+}
+input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 4px solid #1f1f1f;
+}
+.row.btnX {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: auto;
+}
+#searchByTitel, #searchByCategory,#deleteAll,#Save {
+    border: 3px solid #1f1f1f;
+    border-radius: 20px;
+}
+.Alltable{
+    overflow-x: overlay;
+}
+#total {
+    display: flex;
+    align-items: center;
+    height: 46px;
+    background: #dc3545;
+    border-radius: 5px;
+    border: 2px solid #1f1f1f;
+}
+#Save{
+    display: none;
+}
+.btn:focus{
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
